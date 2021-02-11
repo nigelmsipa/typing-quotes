@@ -1,0 +1,12 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+body {
+  background-color: #ce3635;
+  text-align: center;
+  color: #fff;
+  padding-top: 10em;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  
+}
