@@ -303,10 +303,44 @@ let strings = [
   'The greatest achievement was at first and for a time a dream. - James Allen, As a Man Thinketh',
   'The oak sleeps in the acorn; the bird waits in the egg; and in the highest vision of the soul a waking angel stirs. Dreams are the seedlings of realities. - James Allen, As a Man Thinketh',
   'You will become as small as your controlling desire; as great as your dominant aspiration - James Allen, As a Man Thinketh',
+  "If you can control a man's thinking you do not have to worry about his action. When you determine what a man shall think you do not have to concern yourself about what he will do. If you make a man feel that he is inferior, you do not have to compel him to accept an inferior status, for he will seek it himself. If you make a man think that he is justly an outcast, you do not have to order him to the back door. He will go without being told; and if there is no back door, his very nature will demand one. - Carter G. Woodson",
+  "The struggle itself towards the heights is enough to fill a man's heart. One must imagine Sisyphus happy. - Albert Camus",
+  'In the depth of winter, I finally learned that within me there lay an invincible summer.  - Albert Camus',
+  "Always go too far, because that's where you'll find the truth - Albert Camus",
+  'No matter how hard the world pushes against me, within me, there’s something stronger, something better, pushing right back. - Albert Camus',
+  'I rebel, therefore I exist - Albert Camus',
+  'People hasten to judge in order not to be judged themselves - Albert Camus',
+  'The need to be right - the sign of a vulgar mind. - Albert Camus',
+  'Against eternal injustice, man must assert justice, and to protest against the universe of grief, he must create happiness. - Albert Camus',
+  'Blessed are the hearts that can bend; they shall never be broken. - Albert Camus',
+  'Seeking what is true is not seeking what is desirable. - Albert Camus',
+  'Some people talk in their sleep. Lecturers talk while other people sleep - Albert Camus',
+  'stop reading motivational quotes and start doing motivational things.',
+  'Advice from a Cat <br> Be frisky! <br>Pounce on possibilities. <br>Enjoy the night life. <br>Always land on your feet. <br> Stretch often. <br>Delight in the simple joy of a long nap.<br> Create your purr-fect day!',
+  'Advice from a Dog <br> Be loyal! <br>Delight in the simple joys of a long walk.<br> Unleash your talents. <br> Hide Your favorite snack. <br>Make new friends.<br>Learn new tricks no matter your age. <br>When loved ones come home, always run to greet them!',
+  "Advice from a Honey Bee <br>Create a buzz! <br>Sip life's sweet moments.<br> Mind your own beeswax.<br> Work together.<br> Always find your way home.<br> Stick close to your honey.<br> Bee yourself!",
+  "Advice from a Horse <br>Take life's hurdles in stride! <br>Be free-spirited.<br>Carry your friends when they need it.<br>Keep stable.<br>Gallop to greatness!",
+  "Money may not buy happiness, but I'd rather cry in a Jaguar than on a bus. ― Françoise Sagan",
+  'One week they love me. Next week they hate me. Both weeks I got paid.-Unknowns',
+  "Rules are for people who don't know what to do. -Unknown",
+  'Sometimes you have to unfollow people in real life. -Unknown',
+  'What you allow is what will continue. -Unknown',
+  "Don't wish it was easier wish you were better. ― Jim Rohn",
+  'Advice from a Butterfly <br>Let your true colors show! <br> Take yourself lightly. <br>Look for the sweetness in life.<br> Take time to smell the flowers.<br> Catch a breeze.<br> Treat yourself like a Monarch!',
+  'Advice from a rose <br> Make new buds.<br> Look past the thorns.<br> Beauty stems from within.<br> Live in full color.<br> Tend to your garden with care.<br> Wait for your time to bloom.<br> Cultivate happiness!',
+  'Advice from a Waterfall<br> Go with the flow!<br> Roar with excitement.<br> Let your cares fall away.<br> Create your own music.<br> Immerse yourself in nature.<br> Stay active.<br> Make a splash!',
+  "Advice from the Ocean <br>  Be shore of yourself. <br> Come out of your shell. <br> Take time to relax and coast. <br> Avoid pier pressure. <br> Sea life's beauty.<br> Don't get tide down.<br> Make waves!",
+  "Advice from a Volcano <br> Stay active. <br> Keep your inner fire burning.<br> It's OK to let off steam. <br>Go with the flow.<br>Have a blast!",
+  'Advice from a Tree <br> Stand tall and proud.<br> Sink your roots into the Earth.<br> Be content with your natural beauty.<br> Go out on a limb.<br> Drink plenty of water<br> Think long term<br> Enjoy the view!',
+  "Advice from a Bat <br> Trust in your senses. <br> Don't be afraid of the dark.<br> Spend time just hanging around with friends.<br> Get a grip.<br> Enjoy the nightlife. <br> Sometimes you've just gotta wing it.<br> Guano happens!",
+  'Advice from an Owl <br> Stay focused. <br> Be "hoo" you are.<br> Trust in a wise friend.<br> Live off the land.<br> Glide through the dark times.<br> Be observant.<br> Life\'s a hoot!',
+  'You are who you are when no one is looking.',
 ];
 
 strings.sort(() => Math.random() - 0.5);
-console.log(strings.length);
+for (let i = 0; i < strings.length; i++) {
+  console.log(strings[i]);
+}
 
 const instance = new Typewriter('#typewriter', {
   strings: strings,
